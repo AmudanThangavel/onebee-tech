@@ -103,9 +103,9 @@ html {
   background-color: var(--color-bg);
 }
 
-.prod-home-img {
+/* .prod-home-img {
   width: 285px;
-}
+} */
 /* 
 @media (max-width: 768px) {
   .prod-home-card {
@@ -484,4 +484,66 @@ html {
 
 .hover-transistion:hover {
   transform: scale(1.1); /* Apply zoom-in effect on hover */
+}
+
+/* VMV styles */
+
+.vmv-icon {
+  width: 35px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.vmv-heading {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.vmv-span-point {
+  font-weight: bolder;
+}
+
+/* Hero Slideing */
+
+@media (max-width: 984px) {
+  .hero-img-col {
+    padding-top: 10%;
+  }
+}
+
+.carousel-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+/* Indicator Styles */
+.carousel-indicators li {
+  background-color: gray !important;
+  width: 11px !important;
+  height: 11px !important;
+
+  border-width: 4px !important;
+  border-radius: 50% !important;
+}
+
+.carousel-indicators .active {
+  width: 25px !important;
+  height: 10px !important;
+  border-width: 4px;
+  border-radius: 46% !important;
+}
+
+.carousel-navigation a {
+  margin: 0 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.carousel-navigation a.active {
+  background-color: #333;
 }
