@@ -160,6 +160,12 @@ html {
   height: 55px;
 }
 
+@media (min-width: 780px) {
+  .hero-img-col {
+    height: 400px;
+  }
+}
+
 @media (max-width: 500px) {
   .hero-head-text {
     font-size: 22px !important;
@@ -457,10 +463,18 @@ html {
   display: none; /* Hide the scrollbar in WebKit browsers (Chrome, Safari, etc.) */
 }
 
-.team-img {
-  height: 400px;
-  padding: 20px;
-  border-radius: 20px;
+.team-head {
+  text-align: center;
+  font-weight: 800;
+}
+
+.our-team {
+  text-align: center;
+}
+
+.team-text {
+  text-align: center;
+  font-weight: 400;
 }
 
 .arr-btn {
@@ -546,4 +560,99 @@ html {
 
 .carousel-navigation a.active {
   background-color: #333;
+}
+
+.hero-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s, transform 2s;
+}
+
+.why-onebee-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s, transform 2s;
+}
+
+.vmv-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s, transform 2s;
+}
+
+.about-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s, transform 2s;
+}
+
+.our-clients-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s, transform 2s;
+}
+
+.products-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s, transform 2s;
+}
+
+.manual-download-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s, transform 2s;
+}
+
+.our-team-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s, transform 2s;
+}
+
+.blog-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s, transform 2s;
+}
+
+.portfolio-gallery {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s, transform 2s;
+}
+
+.gallery-yt {
+  height: 450px;
+}
+
+@media (max-width: 767px) {
+  .custom-hero-section {
+    height: 600px; /* Adjust the height as per your requirement */
+    overflow: hidden; /* Add this to hide overflowing content */
+  }
+
+  .carousel-inner .carousel-item .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Make the row take the full height of the container */
+  }
+
+  .carousel-inner .carousel-item img {
+    height: auto; /* Let the height adjust according to the image aspect ratio */
+    max-height: 100%; /* Ensure the image doesn't exceed the height of the row */
+  }
+
+  .gallery-yt {
+    height: 200px;
+  }
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  /* background-color: aquamarine; */
+  /* z-index: -1; */
+  height: 100%;
 }

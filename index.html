@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,6 +29,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Particle.js library -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
 
 
@@ -76,147 +79,62 @@
     </section>
 
     <!-- Hero -->
+    <div id="particles-js"></div>
+    <script src="./particles.js"></script>
+    <script src="./app.js"></script>
+    <div class="container"></div>
+    <section class="hero-section"">
 
-    <section class="hero-section" id="hero-id">
-        <div class="container">
-            <div id="heroCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
-                <div class="carousel-inner">
-                    <!-- First Slide -->
-                    <div class="carousel-item active">
-                        <div class="row" style="padding-top: 10%; padding-bottom: 10%;">
-                            <div class="col" style="padding-top: 5%;">
-                                <h1 class="hero-head-text" style="font-style: normal;font-weight: 800;line-height: 52px;">The
-                                    Elevate Your Entrance: Seamless<span style="color: #FF0000;">Gate Automation</span> for <span style="color: #FF0000;">Modern</span> Living</h1>
-                                <p class="hero-para" style="font-weight: 400; line-height: 28px; text-align: justify;
-                                                            text-justify: inter-word;"><span style="color: #FF0000;"></span> Experience the future of convenience and security with our cutting-edge gate automation solutions. we believe in enhancing your everyday life by seamlessly integrating advanced technology into your home or business</p>
+        <div class="container hero-text"    >
+            <div class="row" style="padding-top: 10%; padding-bottom: 10%">
+                <div class="col" style="padding-top: 5%">
+                  <h1
+                    class="hero-head-text"
+                    style="font-style: normal; font-weight: 800; line-height: 52px"
+                  >
+                  The Multitasking Smart Home and Industry Brand - <span style="color: #ff0000"
+                      > IOT Products...</span
+                    >
+                  </h1>
+                  <p
+                    class="hero-para"
+                    style="
+                      font-weight: 400;
+                      line-height: 28px;
+                      text-align: justify;
+                      text-justify: inter-word;
+                    "
+                  >
+                    <span style="color: #ff0000">India’s first IoT Retail Brand</span> “ onebee” is the creation of prestigious cutting edge Technology Company – “Universys Group”- who is in the Automation and Security Industry since last one and half decade.
+                  </p>
     
-                                <a href="tel: +91 9500 8500 00" class="btn btn-primary"
-                                    style="background-color: #FF0000; border: #FF0000;">Contact us</a>
-                                <a></a>
-                                <a href="/#product-id" class="btn btn-outline-danger know-btn"
-                                    style="border-color: #FF0000; color: #FF0000; margin-left: 10px;">Know more</a>
-                            </div>
-                            <div class="col hero-img-col text-right">
-                                <img height="360" style="min-width: 300px;"
-                                    src="./assets/img/Home page images/hero-img/hero2.png" alt="Onebee IOT Hero">
-                            </div>
-                        </div>
-                    </div>
-    
-                    <!-- Second Slide -->
-                    <div class="carousel-item">
-                        <div class="row" style="padding-top: 10%; padding-bottom: 10%;">
-                            <div class="col" style="padding-top: 5%;">
-                                <h1 class="hero-head-text" style="font-style: normal;font-weight: 800;line-height: 52px;">The
-                                    Effortless Parking Solutions for <span style="color: #FF0000;">Modern Urban</span> Living</h1>
-                                <p class="hero-para" style="font-weight: 400; line-height: 28px; text-align: justify;
-                                                            text-justify: inter-word;"><span style="color: #FF0000;"></span> Our mission is to eliminate the stress and inconvenience of parking, making city life smoother and more efficient than ever before</p>
-    
-                                <a href="tel: +91 9500 8500 00" class="btn btn-primary"
-                                    style="background-color: #FF0000; border: #FF0000;">Contact us</a>
-                                <a></a>
-                                <a href="/#product-id" class="btn btn-outline-danger know-btn"
-                                    style="border-color: #FF0000; color: #FF0000; margin-left: 10px;">Know more</a>
-                            </div>
-                            <div class="col hero-img-col text-right">
-                                <img height="360" style="min-width: 300px;"
-                                    src="./assets/img/Home page images/hero-img/hero3.png" alt="Onebee IOT Hero">
-                            </div>
-                        </div>
-                    </div>
-    
-                    <!-- Third Slide -->
-                    <div class="carousel-item">
-                        <div class="row" style="padding-top: 10%; padding-bottom: 10%;">
-                            <div class="col hover-transistion" style="padding-top: 5%;">
-                                <h1 class="hero-head-text" style="font-style: normal;font-weight: 800;line-height: 52px;">Guarding Your Peace of Mind: <span style="color: #FF0000;">Intruder Alarm Solutions</span></h1>
-                                <p class="hero-para" style="font-weight: 400; line-height: 28px; text-align: justify;
-                                                            text-justify: inter-word;"><span style="color: #FF0000;">India’s
-                                        first IoT Brand</span>for Total Security</p>
-    
-                                <a href="tel: +91 9500 8500 00" class="btn btn-primary"
-                                    style="background-color: #FF0000; border: #FF0000;">Contact us</a>
-                                <a></a>
-                                <a href="/#product-id" class="btn btn-outline-danger know-btn"
-                                    style="border-color: #FF0000; color: #FF0000; margin-left: 10px;">Know more</a>
-                            </div>
-                            <div class="col hero-img-col text-right">
-                                <img height="360" style="min-width: 300px;"
-                                    src="./assets/img/Home page images/hero-img/hero4.png" alt="Onebee IOT Hero">
-                            </div>
-                        </div>
-                    </div>
+                  <a
+                    href="tel: +91 9500 8500 00"
+                    class="btn btn-primary"
+                    style="background-color: #ff0000; border: #ff0000"
+                    >Contact us</a
+                  >
+                  <a></a>
+                  <a
+                    href="/#product-id"
+                    class="btn btn-outline-danger know-btn"
+                    style="border-color: #ff0000; color: #ff0000; margin-left: 10px"
+                    >Know more</a
+                  >
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="d-flex align-items-center justify-content-center  hero-img-col" style="height: 100%;">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/m5vEldAffF4?si=rhQ6E-NqYhP9wfqy&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-                    <div class="carousel-item">
-                        <div class="row" style="padding-top: 10%; padding-bottom: 10%;">
-                            <div class="col hover-transistion" style="padding-top: 5%;">
-                                <h1 class="hero-head-text" style="font-style: normal;font-weight: 800;line-height: 52px;">Eyes Everywhere: <span style="color: #FF0000;">Empowering Safety </span>Through Smart Surveillance</h1>
-                                <p class="hero-para" style="font-weight: 400; line-height: 28px; text-align: justify;
-                                                            text-justify: inter-word;"><span style="color: #FF0000;"></span>Our mission is to empower individuals, businesses, and communities with the ability to monitor and protect their environments like never before</p>
-    
-                                <a href="tel: +91 9500 8500 00" class="btn btn-primary"
-                                    style="background-color: #FF0000; border: #FF0000;">Contact us</a>
-                                <a></a>
-                                <a href="/#product-id" class="btn btn-outline-danger know-btn"
-                                    style="border-color: #FF0000; color: #FF0000; margin-left: 10px;">Know more</a>
-                            </div>
-                            <div class="col hero-img-col text-right">
-                                <img height="360" style="min-width: 300px;"
-                                    src="./assets/img/Home page images/hero-img/hero5.png" alt="Onebee IOT Hero">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="row" style="padding-top: 10%; padding-bottom: 10%;">
-                            <div class="col hover-transistion" style="padding-top: 5%;">
-                                <h1 class="hero-head-text" style="font-style: normal;font-weight: 800;line-height: 52px;">Transforming Industries through <span style="color: #FF0000;">Smart Innovation</span></h1>
-                                <p class="hero-para" style="font-weight: 400; line-height: 28px; text-align: justify;
-                                                            text-justify: inter-word;"><span style="color: #FF0000;"></span>Our mission is to empower industries with cutting-edge technology, data-driven insights, and streamlined processes, ushering in a new era of efficiency and growth.</p>
-    
-                                <a href="tel: +91 9500 8500 00" class="btn btn-primary"
-                                    style="background-color: #FF0000; border: #FF0000;">Contact us</a>
-                                <a></a>
-                                <a href="/#product-id" class="btn btn-outline-danger know-btn"
-                                    style="border-color: #FF0000; color: #FF0000; margin-left: 10px;">Know more</a>
-                            </div>
-                            <div class="col hero-img-col text-right">
-                                <img height="360" style="min-width: 300px;"
-                                    src="./assets/img/Home page images/hero-img/hero6.png" alt="Onebee IOT Hero">
-                            </div>
-                        </div>
                     </div>
                 </div>
-                
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li class="corousal-indicators-btn" data-target="#heroCarousel" data-slide-to="0" class="active"></li>
-                    <li class="corousal-indicators-btn" data-target="#heroCarousel" data-slide-to="1"></li>
-                    <li class="corousal-indicators-btn" data-target="#heroCarousel" data-slide-to="2"></li>
-                    <li class="corousal-indicators-btn" data-target="#heroCarousel" data-slide-to="3"></li>
-                    <li class="corousal-indicators-btn" data-target="#heroCarousel" data-slide-to="4"></li>
-                </ol>
-    
-                <!-- Previous and Next buttons -->
-                <!-- <div class="carousel-navigation">
-                    <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div> -->
-
-            </div>
+              </div>
         </div>
     </section>
     
-    
 
     <!-- Our clients -->
-    <section class="our clients section">
+    <section class="our-clients-section">
         <div class="container-fuild" class="our-clients-con">
             <h5 class="our-client-head"
                 style="font-family: 'Pretendard'; font-style: normal; font-weight: 700; text-align: center;">Our
@@ -457,15 +375,15 @@
             <div class="number-counts">
                 <div class="row">
                     <div class="col" style="border-right: 0.5px solid #FF0000;">
-                        <h3 class="why-count-number">15+</h3>
+                        <h3 class="why-count-number" id="experienceCount">0</h3>
                         <p class="why-one-para">Years Experience</p>
                     </div>
                     <div class="col" style="border-right: 0.5px solid #FF0000;">
-                        <h3 class="why-count-number">1000+</h3>
+                        <h3 class="why-count-number" id="integrationsCount">0</h3>
                         <p class="why-one-para">Integrations</p>
                     </div>
                     <div class="col">
-                        <h3 class="why-count-number">5000+</h3>
+                        <h3 class="why-count-number" id="projectsCount">0</h3>
                         <p class="why-one-para">Projects</p>
                     </div>
                 </div>
@@ -631,19 +549,19 @@
 
                     <div class="col-xxl-4 col-lg-4 col-md-6 col-sm-12 hover-transistion" style="padding-bottom: 10px;padding-top: 10px; ">
                         <a href="./gate-Automation.html"><img
-                                src="./assets/img/Home page images/Products/Gate Automation.svg" alt="" width="100%"
+                                src="./assets/img/Home page images/Products/Gate Automation.png" alt="" width="100%"
                                   ></a>
                     </div>
 
                     <div class="col-xxl-4 col-lg-4 col-md-6 col-sm-12 hover-transistion" style="padding-bottom: 10px;padding-top: 10px;">
                         <a href="./CCTV-Surveillance.html"><img
-                                src="./assets/img/Home page images/Products/CCTV Surveillance.svg" alt="" width="100%"
+                                src="./assets/img/Home page images/Products/CCTV Surveillance.png" alt="" width="100%"
                                   ></a>
                     </div>
 
                     <div class="col-xxl-4 col-lg-4 col-md-6 col-sm-12 hover-transistion" style="padding-bottom: 10px;padding-top: 10px;">
                         <a href="./Intruder-Alarm.html"><img
-                                src="./assets/img/Home page images/Products/intruder Alart.svg" alt="" width="100%"
+                                src="./assets/img/Home page images/Products/intruder Alart.png" alt="" width="100%"
                                   ></a>
                     </div>
 
@@ -652,117 +570,81 @@
 
                     <div class="col-xxl-4 col-lg-4 col-md-6 col-sm-12 hover-transistion" style="padding-bottom: 10px;padding-top: 10px;">
                         <a href="./Home-Automation.html"><img
-                                src="./assets/img/Home page images/Products/Home Automation.svg" alt="" width="100%"
+                                src="./assets/img/Home page images/Products/Home Automation.png" alt="" width="100%"
                                   ></a>
                     </div>
 
                     <div class="col-xxl-4 col-lg-4 col-md-6 col-sm-12 hover-transistion" style="padding-bottom: 10px;padding-top: 10px;">
                         <a href="/Smart-parking-management.html"><img 
-                                src="./assets/img/Home page images/Products/Smart Parking System.svg" alt="" width="100%"
+                                src="./assets/img/Home page images/Products/Smart Parking System.png" alt="" width="100%"
                                   ></a>
                     </div>
 
                     <div class="col-xxl-4 col-lg-4 col-md-6 col-sm-12 hover-transistion" style="padding-bottom: 10px;padding-top: 10px;">
                         <a href="./Smart-parking-management.html"><img
-                                src="./assets/img/Home page images/Products/Home Automation.svg" alt="" width="100%"
+                                src="./assets/img/Home page images/Products/Fast Tag.png" alt="" width="100%"
                                   ></a>
                     </div>
 
 
 
-            </div>
         </div>
     </section>
 
 
 
-    <br>
+    <br><br><br>
     <!-- Manual Downloaod -->
-    <div class="text-center"
-        style="background-color: #FFF4E9; padding: 5%; background-image: url(./assets/img/vectors/Aero\ for\ download\ manual.svg); background-repeat: no-repeat; background-position-x: center; background-position-y: center;">
-        <br>
-        <br>
-        <div>
-            <h3 class="get-manual-head">
-                Get Our Product Catalogue Now!
-            </h3>
-            <p>
-                Discover our extensive catalogue featuring a diverse range of products that cater to your every need. <br> 
-From timeless classics to innovative solutions, explore the possibilities that await you
-            </p>
+    <section class="manual-download-section">
+
+        <div class="text-center"
+            style="background-color: #FFF4E9; padding: 5%; background-image: url(./assets/img/vectors/Aero\ for\ download\ manual.svg); background-repeat: no-repeat; background-position-x: center; background-position-y: center;">
             <br>
-                <div class="btn-group">
-                    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #FF0000; color: white; padding: 10px;border-style: solid; border-width: thin; border-radius: 5px; margin-left: 25px;">
-                      Download Manual
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="assets/pdf/Gate Automation.pdf">Gate Automation</a></li>
-                      <li><a class="dropdown-item" href="assets/pdf/Home Automation.pdf">Home Automation</a></li>
-                      <li><a class="dropdown-item" href="assets/pdf/Intruder Alarm.pdf">Intruder Alarm</a></li>
-                      <li><a class="dropdown-item" href="assets/pdf/Smart Parking.pdf">Smart Parking</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="./assets/pdf/onebee-profile.pdf">Brochure</a></li>
-                    </ul>
-                  </div>
             <br><br><br>
+            <br>
+            <div>
+                <h3 class="get-manual-head">
+                    Get Our Product Catalogue Now!
+                </h3>
+                <p>
+                    Discover our extensive catalogue featuring a diverse range of products that cater to your every need. <br> 
+    From timeless classics to innovative solutions, explore the possibilities that await you
+                </p>
+                <br>
+                    <div class="btn-group" style="z-index: 20;">
+                        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #FF0000; color: white; padding: 10px;border-style: solid; border-width: thin; border-radius: 5px; margin-left: 25px;">
+                          Download Manual
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="assets/pdf/Gate Automation.pdf">Gate Automation</a></li>
+                          <li><a class="dropdown-item" href="assets/pdf/Home Automation.pdf">Home Automation</a></li>
+                          <li><a class="dropdown-item" href="assets/pdf/Intruder Alarm.pdf">Intruder Alarm</a></li>
+                          <li><a class="dropdown-item" href="assets/pdf/Smart Parking.pdf">Smart Parking</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="./assets/pdf/onebee-profile.pdf">Brochure</a></li>
+                        </ul>
+                      </div>
+                <br><br><br><br><br><br><br><br>
+            </div>
         </div>
-    </div>
+    </section>
 
     <!-- Our Team Section -->
-    <section class="our-team">
-
-        <div class="container ur-team text-center" style="padding-top: 80px; padding-bottom: 80px;">
-            <div class="row">
-                <div class="col-md-4 meet-team-text" style="padding-top: 10%;">
-                    <h3 class="meet-team-head">Meet Our Team</h3>
-                    <p class="meet-team-para">The Tireless Team Making Us the <br> Groundbreaking Technology</p>
-                    <button id="slideLeft" class="arr-btn" type="button"><img src="assets/img/vectors/left-arrow.svg" alt=""></button>
-                    <button id="slideRight" class="arr-btn" type="button"><img src="assets/img/vectors/right-arrow.svg" alt=""></button>
-                </div>
-                <div class="col-md-8 meet-team-images " style="background-color: #FFF4E9;">
-                    <div id="container">
-                        <div>
-                            <img class="team-img hover-transistion" src="./assets/img/Our team/T-00.png" alt="">
-                        </div>
-                        <div>
-                            <img class="team-img hover-transistion" src="./assets/img/Our team/T-01.png" alt="">
-                        </div>
-                        <div>
-                            <img class="team-img hover-transistion" src="./assets/img/Our team/T-02.png" alt="">
-                        </div>
-                        <div>
-                            <img class="team-img hover-transistion" src="./assets/img/Our team/T-03.png" alt="">
-                        </div>
-                        <div>
-                            <img class="team-img hover-transistion" src="./assets/img/Our team/T-04.png" alt="">
-                        </div>
-                        <div>
-                            <img class="team-img hover-transistion" src="./assets/img/Our team/T-05.png" alt="">
-                        </div>
-                        <div>
-                            <img class="team-img hover-transistion" src="./assets/img/Our team/T-06.png" alt="">
-                        </div>
-                        <div>
-                            <img class="team-img hover-transistion" src="./assets/img/Our team/T-07.png" alt="">
-                        </div>
-                        <div>
-                            <img class="team-img hover-transistion" src="./assets/img/Our team/T-08.png" alt="">
-                        </div>
-                        <div>
-                            <img class="team-img hover-transistion" src="./assets/img/Our team/T-09.png" alt="">
-                        </div>
-                    </div>
-                </div>
+    <section class="our-team-section" style="z-index: 10;">
+        <div class="container our-team"  style="padding: 60px 0 60px 0;"">
+            <div style="padding: 30px 0 40px 0;">
+                <h3 class="team-head">Our Team</h3>
+                <p class="team-text">The Tireless Team Making Us the Groundbreaking Technology</p>
             </div>
-            <br>
-
+            <div class="team-img">
+                <img src="./assets/img/Our team/our-team.svg" alt="" width="100%">
+            </div>
         </div>
-
     </section>
 
 
     <!-- Blog Section -->
-    <section class="blog-section" id="blog-id" style="text-align: center;">
+    <section class="blog-section" id="blog-id" style="text-align: center;  background-color: #F5FAFD;">
         <div class="container justify-content-center" style="text-align: center;">
             <div class="container" style="text-align: center; max-width: 700px;">
                 <h3 style="text-align: center; font-weight: 800;">Read our Blogs</h3><br>
@@ -837,35 +719,6 @@ From timeless classics to innovative solutions, explore the possibilities that a
         </div>
     </section>
 
-
-    <!-- App download -->
-    <!-- <section class="app-download-section" id="app-id" style="background-color: #F9F9F9;">
-        <div class="container ">
-            <br><br>
-            <div class="row align-items-center">
-                <div class="col text-center">
-                    <h2 class="get-app-head">Get the app now!</h2>
-
-                    <p>Download lessons and learn anytime, anywhere with the app</p>
-                    <br>
-                    <img src="./assets/img/vectors/app-store-icon.png" alt="oneBee appstore download"
-                        class="app-store-logo">&emsp;
-                    <img src="./assets/img/vectors/play-store-icon.png" alt="oneBee playstore download"
-                        class="app-store-logo">
-                    <br>
-                    <br><br>
-                </div>
-                <div class="col">
-                    <br>
-
-                    <br>
-                    <img src="./assets/img/vectors/app-mockup.png" alt="" width="100%" style="min-width: 300px;">
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-
     <!-- Gallery -->
     <!-- <section class="Gallery-section" id="gallery-id">
         <div class="container">
@@ -899,100 +752,25 @@ From timeless classics to innovative solutions, explore the possibilities that a
     </section> -->
 
     <!-- Gallery Section-->
-    <section class="portfolio-gallery" id="gallery-id">
-        <section id="portfolio" class="portfolio section-bg">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title text-center" style="padding-top: 80px;">
-                    <h2 class="get-manual-head">Gallery</h2>
-                    <p class="meet-team-para" style="padding-top: 10px;">Best AUTOMATION product in India as an <span
-                            style="color: #FF0000; font-weight: 600;">"INDIAN
-                            BRAND".</span></p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                        <ul id="portfolio-flters">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">Home</li> <!-- filter-app -->
-                            <li data-filter=".filter-card">Survilence</li> <!-- filter-web -->
-                            <li data-filter=".filter-web">Security</li> <!-- filter-card -->
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
-                            <iframe src="https://www.youtube.com/embed/GeRaGQCFv2U?si=Sz9ucAr1cVRJ_2cE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/GeRaGQCFv2U?si=Sz9ucAr1cVRJ_2cE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-                            <!-- <div class="portfolio-info">
-                                <h4></h4>
-                                <p>Home</p>
-                            </div> -->
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <iframe src="https://www.youtube.com/embed/GeRaGQCFv2U?si=Sz9ucAr1cVRJ_2cE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
-                            <iframe src="https://www.youtube.com/embed/GeRaGQCFv2U?si=Sz9ucAr1cVRJ_2cE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <iframe src="https://www.youtube.com/embed/GeRaGQCFv2U?si=Sz9ucAr1cVRJ_2cE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <iframe src="https://www.youtube.com/embed/GeRaGQCFv2U?si=Sz9ucAr1cVRJ_2cE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
-                            <iframe src="https://www.youtube.com/embed/GeRaGQCFv2U?si=Sz9ucAr1cVRJ_2cE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <iframe src="https://www.youtube.com/embed/GeRaGQCFv2U?si=Sz9ucAr1cVRJ_2cE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <iframe src="https://www.youtube.com/embed/GeRaGQCFv2U?si=Sz9ucAr1cVRJ_2cE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <iframe src="https://www.youtube.com/embed/GeRaGQCFv2U?si=Sz9ucAr1cVRJ_2cE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                        </div>
-                    </div>
-
-                </div>
-
+    <section class="our-team-section" style="z-index: 10;">
+        <div class="container our-team"  style="padding: 60px 0 60px 0;"">
+            <div style="padding: 30px 0 40px 0;">
+                <h3 class="team-head">Our Gallery</h3>
+                <!-- <p class="team-text">The Tireless Team Making Us the Groundbreaking Technology</p> -->
             </div>
-        </section><!-- End Portfolio Section -->
-
+            <div class="gallery-video"> 
+                <iframe class="gallery-yt" width="100%" src="https://www.youtube.com/embed/rw_fXrnFpjs?si=MJBcGPb2dZlMPxu5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <br>
+                <br><br>
+                <iframe class="gallery-yt" width="100%" src="https://www.youtube.com/embed/GeRaGQCFv2U?si=WzQ6jBUHpwhvGecJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <br><br><br>
+                <iframe class="gallery-yt" width="100%" src="https://www.youtube.com/embed/-zAA1l3H_7c?si=XZa2Fl6rekTmaxzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <br><br><br>
+                <iframe class="gallery-yt" width="100%" src="https://www.youtube.com/embed/yAMhM4VBwMk?si=Qevuhq1z8aHsO19h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <br><br><br>
+                <iframe class="gallery-yt" width="100%" src="https://www.youtube.com/embed/IEfjbPQ4oyI?si=oRVY57k2Qk81NW1J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
     </section>
 
 
@@ -1023,8 +801,6 @@ From timeless classics to innovative solutions, explore the possibilities that a
                         <img src="./assets/img/vectors/ONEBEE_logo-10.svg" alt="image 1" class="img-fluid mb-3"
                             width="130px">
 
-                        <h5 style="font-weight: 500; font-size: 22px; line-height: 26px; color: #868686;">OneBee
-                            Technologies</h5>
                         <p
                             style="font-weight: 400; font-size: 15px; line-height: 25px; /* or 140% */ letter-spacing: 0.03em;">
                             Onebee Technology Private Limited<br>
@@ -1106,6 +882,11 @@ From timeless classics to innovative solutions, explore the possibilities that a
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <script src="./index.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
